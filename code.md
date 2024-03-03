@@ -1,23 +1,29 @@
+打开文件夹
+
+![image-20240303154030380](C:\Users\liangqianxing\AppData\Roaming\Typora\typora-user-images\image-20240303154030380.png)
+
+在文件夹下打开git bash
+
+进行初始化`git init`
+
+然后将项目地址克隆到 当前文件夹下`git@github.com:liangqianxing/Flask.git`
+
+进入文件夹`cd Flask`
+
+
+
+进行更新前先将所有文件 添加到仓库`git add .`
+
+然后进行提交`git commit -m "注释"`
+
+最后进行`git push`
+
 ```bash
 
 liangqianxing@SDUST-slient MINGW64 ~/Desktop/软件工程基础 (master)
 $ git init
 Initialized empty Git repository in C:/Users/liangqianxing/Desktop/软件工程基础/.git/
 
-
-liangqianxing@SDUST-slient MINGW64 ~/Desktop/软件工程基础 (master)
-$ git clone git@github.com:liangqianxing/-Flask-.git
-Cloning into '-Flask-'...
-remote: Enumerating objects: 10, done.
-remote: Counting objects: 100% (10/10), done.
-remote: Compressing objects: 100% (9/9), done.
-remote: Total 10 (delta 0), reused 7 (delta 0), pack-reused 0
-Receiving objects: 100% (10/10), done.
-
-liangqianxing@SDUST-slient MINGW64 ~/Desktop/软件工程基础 (master)
-$ cd -Flask-
-bash: cd: -F: invalid option
-cd: usage: cd [-L|[-P [-e]] [-@]] [dir]
 
 liangqianxing@SDUST-slient MINGW64 ~/Desktop/软件工程基础 (master)
 $ git clone \git@github.com:liangqianxing/Flask.git
