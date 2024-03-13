@@ -1,0 +1,25 @@
+{% extends 'base.html' %} {% block content %}
+<h3>Edit item</h3>
+<span class="float-right">
+  <a class="btn" href="{{ url_for('edit', movie_id=movie.id) }}">Edit</a>
+</span>
+<form method="post">
+  Name
+  <input
+    type="text"
+    name="title"
+    autocomplete="off"
+    required
+    value="{{ movie.title }}"
+  />
+  Year
+  <input
+    type="text"
+    name="year"
+    autocomplete="off"
+    required
+    value="{{ movie.year }}"
+  />
+  <input class="btn" type="submit" name="submit" value="Update" />
+</form>
+{% endblock %}
